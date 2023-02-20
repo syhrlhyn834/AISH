@@ -5,7 +5,7 @@ from flask import Flask, jsonify, request, render_template
 import os
 import openai
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("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")
 
 app = Flask(__name__)
 
